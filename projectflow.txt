@@ -1,0 +1,16 @@
+pip list	Installed packages show
+pip freeze	Packages with exact versions show
+pip freeze > requirements.txt	Packages file mein save
+pip install -r requirements.txt	File se packages install
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py startapp students
+
+python manage.py makemigrations # create a file in studenta
+
+# createa tree db
+python manage.py migrate
+
